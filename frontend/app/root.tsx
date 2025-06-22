@@ -70,7 +70,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </body>
       <script>window.DOMMatrix = window.DOMMatrix || window.WebKitCSSMatrix;</script>
       <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
     </html>
   );
 }
