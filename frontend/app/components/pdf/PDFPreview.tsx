@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 
-interface TextElement {
+export interface TextElement {
   id: number;
   type: string; // e.g., 'text', 'signature' - for future expansion
   value: string; // The actual text content
