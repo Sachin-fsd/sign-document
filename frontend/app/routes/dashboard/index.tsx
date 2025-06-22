@@ -1,4 +1,4 @@
-import PDFPreview from "@/components/pdf/PDFPreview";
+import PDFPreview, { type TextElement } from "@/components/pdf/PDFPreview";
 import React, { useEffect, useRef, useState, useCallback } from "react";
 
 // Dynamically load pdfjsLib from CDN and handle its availability.
@@ -29,7 +29,7 @@ const usePdfActions = () => {
     formData.append('userId', userId);
 
     try {
-      const response = await fetch(`${BACKEND_API_BASE_URL}/files/upload`, {
+      const response = await fetch(`${BACKEND_API_BASE_URL}/api-v1/files/upload`, {
         method: 'POST',
         body: formData,
         headers: {
