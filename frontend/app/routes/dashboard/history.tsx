@@ -35,12 +35,11 @@ const HistoryPage = () => {
     const files = data || [];
 
     // Handler for delete button click
-    const handleDeleteClick = useCallback((fileId: string) => {
+    const handleDeleteClick = (fileId: string) => {
         if (window.confirm("Are you sure you want to delete this file? This action cannot be undone.")) {
             deleteFile(fileId); // Trigger the mutation
         }
-    }, [deleteFile]);
-
+    }
 
     return (
         <div className="container mx-auto py-8 animate-fade-in">

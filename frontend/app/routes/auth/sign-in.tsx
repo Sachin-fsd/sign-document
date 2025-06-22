@@ -50,11 +50,11 @@ const SignInPage = () => {
     };
   }, []);
 
-// - https://assets10.lottiefiles.com/packages/lf20_kyu7xb1v.json
-// - https://assets1.lottiefiles.com/packages/lf20_2kscui.json
-// - https://assets2.lottiefiles.com/packages/lf20_1pxqjqps.json
-// - https://assets4.lottiefiles.com/packages/lf20_3vbOcw.json
-// - https://assets9.lottiefiles.com/packages/lf20_3rwasyjy.json
+  // - https://assets10.lottiefiles.com/packages/lf20_kyu7xb1v.json
+  // - https://assets1.lottiefiles.com/packages/lf20_2kscui.json
+  // - https://assets2.lottiefiles.com/packages/lf20_1pxqjqps.json
+  // - https://assets4.lottiefiles.com/packages/lf20_3vbOcw.json
+  // - https://assets9.lottiefiles.com/packages/lf20_3rwasyjy.json
 
 
   return (
@@ -73,7 +73,8 @@ const SignInPage = () => {
           Welcome Back to SignDoc!
         </h2>
         <p className="text-lg text-blue-900 text-center max-w-md">
-          Your agile project management journey continues here.
+          Sign, Edit, & Manage Your <span className="text-blue-600">PDFs</span>
+          <br />With Ease, Anywhere, Anytime.
         </p>
       </div>
       {/* Right: Sign In Form */}

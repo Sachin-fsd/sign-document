@@ -123,4 +123,3 @@ const ResetPassword = () => {
 };
 
 export default ResetPassword;
-// This file is part of Orbit, a web application for managing personal projects.

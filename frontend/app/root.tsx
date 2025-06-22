@@ -31,7 +31,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
         <meta charSet="utf-8" />
         <title>SignDoc | PDF Editor </title>
-        <meta name="title" content="SignDoc | Agile Project Management " />
+        <meta name="title" content="SignDoc | PDF EDITOR " />
         <meta name="description" content="This project management app is designed to streamline task tracking, resource allocation, and communication for teams, ensuring efficient project execution and timely delivery. It offers a user-friendly interface and powerful tools to help manage project timelines, budgets, and milestones effectively." />
 
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />

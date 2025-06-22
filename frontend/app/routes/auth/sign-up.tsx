@@ -61,7 +61,7 @@ const SignUp = () => {
           Join SignDoc and Supercharge Your Documents!
         </h2>
         <p className="text-lg text-blue-900 text-center max-w-md">
-          Create your free account and start managing projects, collaborating, and delivering results—smarter and faster.
+          Create your free account and start editing Documents, saving to cloud faster.
         </p>
         <div className="mt-8 flex flex-wrap gap-4 justify-center">
           <div className="flex items-center gap-2 bg-white/80 rounded px-4 py-2 shadow">
