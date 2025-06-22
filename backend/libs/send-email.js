@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
 
 export const sendEmail = async (to, subject, html) => {
   const mailOptions = {
-    from: `Orbit <${fromEmail}>`,
+    from: `SignDoc <${fromEmail}>`,
     to,
     subject,
     html,

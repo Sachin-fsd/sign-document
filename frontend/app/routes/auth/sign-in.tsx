@@ -50,8 +50,6 @@ const SignInPage = () => {
     };
   }, []);
 
-  // animation links
-
 // - https://assets10.lottiefiles.com/packages/lf20_kyu7xb1v.json
 // - https://assets1.lottiefiles.com/packages/lf20_2kscui.json
 // - https://assets2.lottiefiles.com/packages/lf20_1pxqjqps.json
@@ -64,7 +62,7 @@ const SignInPage = () => {
       {/* Left: Animation & Welcome */}
       <div className="hidden md:flex flex-col items-center justify-center w-1/2 h-full animate-fade-in">
         <lottie-player
-          src="https://assets1.lottiefiles.com/packages/lf20_2kscui.json"
+          src="https://assets2.lottiefiles.com/packages/lf20_kyu7xb1v.json"
           background="transparent"
           speed="1"
           style={{ width: "340px", height: "340px" }}
@@ -72,7 +70,7 @@ const SignInPage = () => {
           autoplay
         ></lottie-player>
         <h2 className="text-3xl font-extrabold text-blue-700 mt-8 mb-2 text-center drop-shadow">
-          Welcome Back to Orbit!
+          Welcome Back to SignDoc!
         </h2>
         <p className="text-lg text-blue-900 text-center max-w-md">
           Your agile project management journey continues here.
@@ -81,7 +79,7 @@ const SignInPage = () => {
       {/* Right: Sign In Form */}
       <div className="flex flex-1 items-center justify-center py-12 px-4 animate-fade-in">
         <Card className="w-full max-w-md p-6 shadow-2xl border-0 bg-white/90 backdrop-blur-md transition-all duration-500">
-          <CardTitle className="text-2xl font-bold text-center text-blue-700 mb-2">Sign In to Orbit</CardTitle>
+          <CardTitle className="text-2xl font-bold text-center text-blue-700 mb-2">Sign In to SignDoc</CardTitle>
           <CardDescription className="text-center mb-4 text-gray-500">
             Please enter your credentials to sign in.
           </CardDescription>

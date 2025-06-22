@@ -53,7 +53,7 @@ const registerUser = async (req, res) => {
         // send twilio email
         const verificationLink = `${process.env.FRONTEND_URL}/verify-email?token=${verificationToken}`;
         const emailBody = `
-        <h1>Welcome to Orbit, 
+        <h1>Welcome to SignDoc, 
         ${newUser.name}!</h1>
         <p>Please verify your email by clicking the link below:</p>
         <button><a href="${verificationLink}">Verify Email</a></button>
@@ -104,7 +104,7 @@ const loginUser = async (req, res) => {
                 // send twilio email
                 const verificationLink = `${process.env.FRONTEND_URL}/verify-email?token=${verificationToken}`;
                 const emailBody = `
-                <h1>Welcome to Orbit, 
+                <h1>Welcome to SignDoc, 
                 ${newUser.name}!</h1>
                 <p>Please verify your email by clicking the link below:</p>
                 <button><a href="${verificationLink}">Verify Email</a></button>

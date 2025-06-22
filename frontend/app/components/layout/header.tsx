@@ -11,10 +11,8 @@ import {
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
-import { Link, useLoaderData, useLocation, useNavigate } from "react-router";
 
 export const Header = () => {
-  const navigate = useNavigate();
   const { user, logout } = useAuth();
 
   return (
@@ -55,10 +53,10 @@ export const Header = () => {
               </DropdownMenuLabel>
               <DropdownMenuSeparator />
               <DropdownMenuItem>
-                <Link to="/user/profile" className="flex items-center gap-2">
+                {/* <Link to="/user/profile" className="flex items-center gap-2">
                   <UserCircle2 className="w-4 h-4 text-indigo-400" />
                   Profile
-                </Link>
+                </Link> */}
               </DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem

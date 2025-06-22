@@ -12,8 +12,5 @@ export default [
     layout("routes/dashboard/dasboard-layout.tsx", [
         route("dashboard","routes/dashboard/index.tsx"),
         route("history","routes/dashboard/history.tsx"),
-    ]),
-    layout("routes/user/user-layout.tsx", [
-        route("user/profile","routes/user/profile.tsx"),
     ])
 ] satisfies RouteConfig;

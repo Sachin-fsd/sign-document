@@ -58,7 +58,7 @@ const SignUp = () => {
           autoplay
         ></lottie-player>
         <h2 className="text-3xl font-extrabold text-blue-700 mt-8 mb-2 text-center">
-          Join Orbit and Supercharge Your Team!
+          Join SignDoc and Supercharge Your Documents!
         </h2>
         <p className="text-lg text-blue-900 text-center max-w-md">
           Create your free account and start managing projects, collaborating, and delivering results—smarter and faster.
@@ -83,7 +83,7 @@ const SignUp = () => {
       <div className="flex flex-1 items-center justify-center py-12 px-4">
         <Card className="w-full max-w-md shadow-2xl border-0 bg-white/90">
           <CardTitle className="text-3xl font-bold text-center mt-6 mb-2 text-blue-700">
-            Create your Orbit Account
+            Create your SignDoc Account
           </CardTitle>
           <CardDescription className="text-center mb-4 text-gray-500">
             Sign up to get started. It's free!
