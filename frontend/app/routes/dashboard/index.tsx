@@ -29,7 +29,7 @@ const usePdfActions = () => {
     formData.append('userId', userId);
 
     try {
-      const response = await fetch(`${BACKEND_API_BASE_URL}/api-v1/files/upload`, {
+      const response = await fetch(`${BACKEND_API_BASE_URL}/files/upload`, {
         method: 'POST',
         body: formData,
         headers: {
