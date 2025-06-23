@@ -60,7 +60,7 @@ const registerUser = async (req, res) => {
         <p>If you did not create an account, please ignore this email.</p>
         <p>Thank you for joining us!</p>
         `;
-        const emailSubject = 'Email Verification - Welcome to Orbit';
+        const emailSubject = 'Email Verification - Welcome to SignDoc';
 
         const isEmailSent = await sendEmail(email, emailSubject, emailBody);
         if (!isEmailSent) {
@@ -111,7 +111,7 @@ const loginUser = async (req, res) => {
                 <p>If you did not create an account, please ignore this email.</p>
                 <p>Thank you for joining us!</p>
                 `;
-                const emailSubject = 'Email Verification - Welcome to Orbit';
+                const emailSubject = 'Email Verification - Welcome to SignDoc';
 
                 const isEmailSent = await sendEmail(email, emailSubject, emailBody);
                 if (!isEmailSent) {
@@ -225,9 +225,9 @@ const resetPasswordReqquest = async (req, res) => {
         <p>Please click the link below to reset your password:</p>
         <button><a href="${resetPasswordLink}">Reset Password</a></button>
         <p>If you did not request a password reset, please ignore this email.</p>
-        <p>Thank you for using Orbit!</p>
+        <p>Thank you for using SignDoc!</p>
         `;
-        const emailSubject = 'Password Reset Request - Orbit';
+        const emailSubject = 'Password Reset Request - SignDoc';
 
         const isEmailSent = await sendEmail(user.email, emailSubject, emailBody);
         if (!isEmailSent) {
