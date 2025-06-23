@@ -50,7 +50,7 @@ const registerUser = async (req, res) => {
             expiresAt: new Date(Date.now() + 3600000) // 1 hour from now
         });
 
-        // send twilio email
+        // send email
         const verificationLink = `${process.env.FRONTEND_URL}/verify-email?token=${verificationToken}`;
         const emailBody = `
         <h1>Welcome to SignDoc, 

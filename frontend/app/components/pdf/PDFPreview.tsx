@@ -163,7 +163,7 @@ const PDFPreview: React.FC<PDFPreviewProps> = ({
           onClick={onCanvasClick}
         />
       ) : (
-        <div className="w-full h-full min-w-[600px] min-h-[800px] flex items-center justify-center bg-gray-200 rounded-lg text-gray-500 text-xl">
+        <div className="">
           Please select a PDF file to view and edit.
         </div>
       )}
